@@ -11,11 +11,14 @@ const globalStyle = createGlobalStyle`
     }
     body {
         background-color: #FDFFF7;
+        font-family: 'Ubuntu', sans-serif;
     }
     button {
-        background-color: none;
+        background-color: transparent;
         border: none;
         outline: none;
+        font-family: 'Ubuntu', sans-serif;
+        cursor: pointer;
     }
     a {
         text-decoration: none;
